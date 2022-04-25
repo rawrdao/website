@@ -1,4 +1,4 @@
-![logo](_media/icon.jpeg)
+<img src="_media/logo.png" height="300">
 
 # rawrdao
 
