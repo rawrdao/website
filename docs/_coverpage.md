@@ -2,12 +2,15 @@
 
 # rawrdao
 
-> Unofficial tiny dinos DAO.
+> official tiny dinos community dao
 
-- Trustless
-- From builders to builders
-- CC0
+- trustless
+- from builders to the community
+- cc0
 
-[GitHub](https://github.com/rawrdao/website/)
-[Forum](https://forum.rawrdao.xyz)
-[Discord](https://discord.gg/6gNEGVgWJm)
+[github](https://github.com/rawrdao/website/)
+[opensea](https://t.co/bF7BZidGD6)
+[linktree](http://linktr.ee/tinydinosnft)
+[forum](https://forum.rawrdao.xyz)
+[twitter](https://twitter.com/tinydinosnft)
+[discord](https://discord.gg/6gNEGVgWJm)
