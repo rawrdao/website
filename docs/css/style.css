@@ -91,6 +91,10 @@ hr {
   background-size: cover;
 }
 
+#logo {
+  margin: 60px 0;
+}
+
 #headerwrap h1 {
   color: inherit;
   font-size: 4rem;
@@ -211,6 +215,7 @@ hr {
 
 #copyrights {
   /* background: hsl(176, 100%, 85%) 0%; */
+  margin-top: 20px;
   padding: 20px 0;
   text-align: center;
   color: rgb(85, 85, 85);
