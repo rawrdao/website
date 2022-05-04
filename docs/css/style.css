@@ -1,4 +1,3 @@
-
 body {
   background-color: #f2f2f2;
   font-family: courier new;
@@ -11,7 +10,12 @@ body {
 
 /* Titles */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: courier new;
   font-weight: 300;
   color: #333;
@@ -40,13 +44,15 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #7b7b7b;
   text-decoration: none;
   outline: 0;
 }
 
-a:before, a:after {
+a:before,
+a:after {
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -87,13 +93,11 @@ hr {
 
 #headerwrap h1 {
   color: inherit;
-    font-size: 4rem;
-    font-weight: 300;
-    margin: 0.625rem 0 2.5rem
-rem
-;
-    position: relative;
-    text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 0.625rem 0 2.5rem;
+  position: relative;
+  text-align: center;
 }
 
 #headerwrap blockquote {
@@ -110,31 +114,31 @@ rem
 }
 
 #headerwrap p {
-  line-height: 1.5rem;
+  line-height: 3.5rem;
   margin: 1em 0;
 }
 
 #headerwrap > div > div > p > a {
   border-radius: 2rem;
-  border: 1px solid var(--theme-color,#42b983);
+  border: 1px solid var(--theme-color, #42b983);
   box-sizing: border-box;
-  color: var(--theme-color,#42b983);
+  color: var(--theme-color, #42b983);
   display: inline-block;
   font-size: 1.05rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   margin: 0.5rem 1rem;
   padding: 0.75em 2rem;
   text-decoration: none;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 }
 
 .linkGroup {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 22rem;
-    margin: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 36rem;
+  margin: auto;
 }
 
 .linkGroup img {
@@ -153,7 +157,7 @@ rem
   background: hsl(176, 100%, 85%) 0%;
   padding-top: 70px;
   padding-bottom: 70px;
-  text-align: center
+  text-align: center;
 }
 
 #f h3 {
@@ -201,7 +205,6 @@ rem
     transform: rotate(360deg);
   }
 }
-
 
 /* Copyrights */
 
