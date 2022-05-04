@@ -1,7 +1,7 @@
 // A $( document ).ready() block.
 $(document).ready(function () {
   function getRandomGradient() {
-    const SL = ', 100%, 85%';
+    const SL = ', 100%, 90%';
     const bgc = `linear-gradient(to left bottom, hsl(${
       Math.floor(Math.random() * 255) + SL
     }) 0%, hsl(${Math.floor(Math.random() * 255) + SL}) 100%)`;
@@ -13,5 +13,4 @@ $(document).ready(function () {
   }
 
   changeColor();
-  setInterval(changeColor, 1000);
 });
