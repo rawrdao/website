@@ -1,0 +1,225 @@
+
+body {
+  background-color: #f2f2f2;
+  font-family: courier new;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: courier new;
+  font-weight: 300;
+  color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  color: #f85c37;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  color: inherit;
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0.625rem 0 2.5rem
+rem
+;
+    position: relative;
+    text-align: center;
+}
+
+#headerwrap blockquote {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#headerwrap ul {
+  line-height: 1.8;
+  list-style-type: none;
+  margin: 1em auto;
+  max-width: 500px;
+  padding: 0;
+}
+
+#headerwrap p {
+  line-height: 1.5rem;
+  margin: 1em 0;
+}
+
+#headerwrap > div > div > p > a {
+  border-radius: 2rem;
+  border: 1px solid var(--theme-color,#42b983);
+  box-sizing: border-box;
+  color: var(--theme-color,#42b983);
+  display: inline-block;
+  font-size: 1.05rem;
+  letter-spacing: .1rem;
+  margin: 0.5rem 1rem;
+  padding: 0.75em 2rem;
+  text-decoration: none;
+  transition: all .15s ease;
+}
+
+.linkGroup {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 22rem;
+    margin: auto;
+}
+
+.linkGroup img {
+  width: 2.8rem;
+}
+
+#headerwrap .logo {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* Footer Wrap */
+
+#f {
+  background: hsl(176, 100%, 85%) 0%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center
+}
+
+#f h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#f i {
+  font-size: 8px;
+  color: #fff;
+  padding: 3px;
+}
+
+#f p {
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+#f img {
+  text-align: center;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Copyrights */
+
+#copyrights {
+  /* background: hsl(176, 100%, 85%) 0%; */
+  padding: 20px 0;
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+
+#copyrights a {
+  color: #f0ad4e;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+}
+
+.credits {
+  color: #999;
+}
