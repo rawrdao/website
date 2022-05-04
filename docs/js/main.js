@@ -13,5 +13,4 @@ $(document).ready(function () {
   }
 
   changeColor();
-  setInterval(changeColor, 1500);
 });
