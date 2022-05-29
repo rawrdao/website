@@ -233,6 +233,13 @@ hr {
   margin-bottom: 5px;
 }
 
+#announcement {
+  display: flex;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
 .credits {
   color: #999;
 }
