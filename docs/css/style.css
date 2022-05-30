@@ -238,6 +238,12 @@ hr {
   position: absolute;
   right: 0;
   cursor: pointer;
+  align-items: center;
+}
+
+#tiny-runner {
+  align-self: center;
+  margin-top: 30px;
 }
 
 .credits {
