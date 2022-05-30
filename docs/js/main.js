@@ -4,8 +4,8 @@
     var settings = $.extend(
       {
         classBtn: '.bmd-modalButton',
-        defaultW: 640,
-        defaultH: 360,
+        defaultW: 960,
+        defaultH: 613,
       },
       options
     );
